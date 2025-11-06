@@ -2,5 +2,6 @@ from flask import Flask
 app = Flask(__name__)
 @app.route('/')
 def hello():
-    return "Hello kelompok 2!"
+    return "Hello kelompok 2"
+
 
